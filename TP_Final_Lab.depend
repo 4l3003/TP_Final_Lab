@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1491400450 source:f:\tp_final_lab\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1571362594 source:f:\tp_final_lab\main.c
+	<stdio.h>
+	<stdlib.h>
+	"usuario.h"
+	"gotoxy.h"
+
+1571359568 f:\tp_final_lab\usuario.h
+
+1571360664 source:f:\tp_final_lab\usuario.c
+	"usuario.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1491399896 f:\tp_final_lab\gotoxy.h
+
+1491400450 source:c:\users\alejo\desktop\tp_final_lab\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1571360664 source:c:\users\alejo\desktop\tp_final_lab\usuario.c
+	"usuario.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571359568 c:\users\alejo\desktop\tp_final_lab\usuario.h
+
+1571519665 source:c:\users\alejo\desktop\tp_final_lab\main.c
+	<stdio.h>
+	<stdlib.h>
+	"usuario.h"
+	"gotoxy.h"
+
+1491399896 c:\users\alejo\desktop\tp_final_lab\gotoxy.h
+
