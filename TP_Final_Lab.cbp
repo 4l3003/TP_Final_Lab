@@ -31,17 +31,37 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="ADL_Users.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ADL_Users.h" />
+		<Unit filename="ArbolCanciones.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ArbolCanciones.h" />
+		<Unit filename="CargarArchivoRandom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CargarArchivoRandom.h" />
 		<Unit filename="gotoxy.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="gotoxy.h" />
+		<Unit filename="listaCanciones.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="listaCanciones.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="usuario.c">
+		<Unit filename="menus.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="usuario.h" />
+		<Unit filename="menus.h" />
+		<Unit filename="playlist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="playlist.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

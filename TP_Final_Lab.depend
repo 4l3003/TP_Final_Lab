@@ -4,19 +4,24 @@
 	<stdlib.h>
 	<windows.h>
 
-1571362594 source:f:\tp_final_lab\main.c
+1573168862 source:f:\tp_final_lab\main.c
 	<stdio.h>
 	<stdlib.h>
-	"usuario.h"
+	"menus.h"
 	"gotoxy.h"
+	"ADL_Users.h"
+	<string.h>
+	"CargarArchivoRandom.h"
+	"ArbolCanciones.h"
 
-1571359568 f:\tp_final_lab\usuario.h
+1571793246 f:\tp_final_lab\usuario.h
 
-1571360664 source:f:\tp_final_lab\usuario.c
+1571747812 source:f:\tp_final_lab\usuario.c
 	"usuario.h"
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
+	"menus.h"
 
 1491399896 f:\tp_final_lab\gotoxy.h
 
@@ -25,19 +30,406 @@
 	<stdlib.h>
 	<windows.h>
 
-1571360664 source:c:\users\alejo\desktop\tp_final_lab\usuario.c
+1572047100 source:c:\users\alejo\desktop\tp_final_lab\usuario.c
 	"usuario.h"
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
+	"menus.h"
 
-1571359568 c:\users\alejo\desktop\tp_final_lab\usuario.h
+1572059983 c:\users\alejo\desktop\tp_final_lab\usuario.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"menus.h"
 
-1571519665 source:c:\users\alejo\desktop\tp_final_lab\main.c
+1574260115 source:c:\users\alejo\desktop\tp_final_lab\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"menus.h"
+	"gotoxy.h"
+	"ADL_Users.h"
+	"CargarArchivoRandom.h"
+	"ArbolCanciones.h"
+
+1491399896 c:\users\alejo\desktop\tp_final_lab\gotoxy.h
+
+1491400450 source:c:\users\martin\desktop\nueva carpeta\tp_final_lab\tp_final_lab\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1571683460 source:c:\users\martin\desktop\nueva carpeta\tp_final_lab\tp_final_lab\main.c
 	<stdio.h>
 	<stdlib.h>
 	"usuario.h"
 	"gotoxy.h"
 
-1491399896 c:\users\alejo\desktop\tp_final_lab\gotoxy.h
+1571622930 c:\users\martin\desktop\nueva carpeta\tp_final_lab\tp_final_lab\usuario.h
+
+1491399896 c:\users\martin\desktop\nueva carpeta\tp_final_lab\tp_final_lab\gotoxy.h
+
+1571696676 source:c:\users\martin\desktop\nueva carpeta\tp_final_lab\tp_final_lab\usuario.c
+	"usuario.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1491400450 source:c:\users\usuario\desktop\tp_final_lab\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1571747928 source:c:\users\usuario\desktop\tp_final_lab\main.c
+	<stdio.h>
+	<stdlib.h>
+	"menus.h"
+	"usuario.h"
+	"gotoxy.h"
+	"CargarArchivo.h"
+	<string.h>
+
+1571704018 c:\users\usuario\desktop\tp_final_lab\menus.h
+
+1571747940 c:\users\usuario\desktop\tp_final_lab\usuario.h
+
+1491399896 c:\users\usuario\desktop\tp_final_lab\gotoxy.h
+
+1571747811 source:c:\users\usuario\desktop\tp_final_lab\usuario.c
+	"usuario.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"menus.h"
+
+1571750470 source:c:\users\usuario\desktop\tp_final_lab\cargararchivo.c
+	"CargarArchivo.h"
+	<time.h>
+
+1571747956 c:\users\usuario\desktop\tp_final_lab\cargararchivo.h
+
+1571747995 source:c:\users\usuario\desktop\tp_final_lab\menus.c
+	"menus.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"gotoxy.h"
+
+1491400450 source:c:\users\alejo\desktop\tp_final_lab rand\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1571747812 source:c:\users\alejo\desktop\tp_final_lab rand\usuario.c
+	"usuario.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"menus.h"
+
+1571747942 c:\users\alejo\desktop\tp_final_lab rand\usuario.h
+
+1571704018 c:\users\alejo\desktop\tp_final_lab rand\menus.h
+
+1571792571 source:c:\users\alejo\desktop\tp_final_lab rand\main.c
+	<stdio.h>
+	<stdlib.h>
+	"menus.h"
+	"gotoxy.h"
+	"CargarArchivoRandom.h"
+	<string.h>
+
+1491399896 c:\users\alejo\desktop\tp_final_lab rand\gotoxy.h
+
+1571791719 c:\users\alejo\desktop\tp_final_lab rand\cargararchivorandom.h
+	"usuario.h"
+
+1571788882 source:c:\users\alejo\desktop\tp_final_lab rand\menus.c
+	"menus.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"gotoxy.h"
+
+1571792654 source:c:\users\alejo\desktop\tp_final_lab rand\cargararchivorandom.c
+	"CargarArchivoRandom.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1491400450 source:e:\tp_final_lab\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1573559134 source:e:\tp_final_lab\menus.c
+	"menus.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"gotoxy.h"
+
+1573431758 e:\tp_final_lab\menus.h
+	"ADL_Users.h"
+	"ArbolCanciones.h"
+	"playlist.h"
+
+1491399896 e:\tp_final_lab\gotoxy.h
+
+1571747812 source:e:\tp_final_lab\usuario.c
+	"usuario.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"menus.h"
+
+1571793040 e:\tp_final_lab\usuario.h
+
+1572283810 source:e:\tp_final_lab\cargararchivorandom.c
+	"CargarArchivoRandom.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ADL_Users.h"
+	"listaCanciones.h"
+
+1572046626 e:\tp_final_lab\cargararchivorandom.h
+
+1572283810 source:f:\tp_final_lab\cargararchivorandom.c
+	"CargarArchivoRandom.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ADL_Users.h"
+	"listaCanciones.h"
+
+1572046626 f:\tp_final_lab\cargararchivorandom.h
+
+1573434580 source:f:\tp_final_lab\menus.c
+	"menus.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"gotoxy.h"
+
+1573431758 f:\tp_final_lab\menus.h
+	"ADL_Users.h"
+	"ArbolCanciones.h"
+	"playlist.h"
+
+1573434606 source:f:\tp_final_lab\adl_users.c
+	"ADL_Users.h"
+	<stdio.h>
+	<stdlib.h>
+
+1574211684 source:c:\users\alejo\desktop\tp_final_lab\cargararchivorandom.c
+	"CargarArchivoRandom.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ADL_Users.h"
+	"listaCanciones.h"
+
+1572046626 c:\users\alejo\desktop\tp_final_lab\cargararchivorandom.h
+
+1574211105 source:c:\users\alejo\desktop\tp_final_lab\menus.c
+	"menus.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"gotoxy.h"
+
+1574205004 c:\users\alejo\desktop\tp_final_lab\menus.h
+	"ADL_Users.h"
+	"ArbolCanciones.h"
+	"playlist.h"
+
+1574200564 source:c:\users\alejo\desktop\tp_final_lab\listacanciones.c
+	"listaCanciones.h"
+	<stdio.h>
+	<stdlib.h>
+
+1572569846 c:\users\alejo\desktop\tp_final_lab\listacanciones.h
+
+1574256592 source:c:\users\alejo\desktop\tp_final_lab\adl_users.c
+	"ADL_Users.h"
+	"gotoxy.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+
+1574201539 c:\users\alejo\desktop\tp_final_lab\adl_users.h
+	"listaCanciones.h"
+	"ArbolCanciones.h"
+
+1574253739 source:c:\users\alejo\desktop\tp_final_lab\playlist.c
+	"playlist.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1574174519 c:\users\alejo\desktop\tp_final_lab\arbolcanciones.h
+	"listaCanciones.h"
+
+1574257304 source:c:\users\alejo\desktop\tp_final_lab\arbolcanciones.c
+	"ArbolCanciones.h"
+	<stdio.h>
+	<stdlib.h>
+
+1573434522 f:\tp_final_lab\adl_users.h
+	"listaCanciones.h"
+	"ArbolCanciones.h"
+
+1572569846 f:\tp_final_lab\listacanciones.h
+
+1572282844 f:\tp_final_lab\arbolcanciones.h
+	"listaCanciones.h"
+
+1573052490 source:f:\tp_final_lab\listacanciones.c
+	"listaCanciones.h"
+	<stdio.h>
+	<stdlib.h>
+
+1573164732 source:f:\tp_final_lab\playlist.c
+	"playlist.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1572446848 source:f:\tp_final_lab\arbolcanciones.c
+	"ArbolCanciones.h"
+	<stdio.h>
+	<stdlib.h>
+
+1573164688 f:\tp_final_lab\playlist.h
+	"ArbolCanciones.h"
+	"ADL_Users.h"
+
+1572446848 source:e:\tp_final_lab\arbolcanciones.c
+	"ArbolCanciones.h"
+	<stdio.h>
+	<stdlib.h>
+
+1572282844 e:\tp_final_lab\arbolcanciones.h
+	"listaCanciones.h"
+
+1572569846 e:\tp_final_lab\listacanciones.h
+
+1573559134 e:\tp_final_lab\adl_users.h
+	"listaCanciones.h"
+	"ArbolCanciones.h"
+
+1573052490 source:e:\tp_final_lab\listacanciones.c
+	"listaCanciones.h"
+	<stdio.h>
+	<stdlib.h>
+
+1573558634 source:e:\tp_final_lab\main.c
+	<stdio.h>
+	<stdlib.h>
+	"menus.h"
+	"gotoxy.h"
+	"ADL_Users.h"
+	<string.h>
+	"CargarArchivoRandom.h"
+	"ArbolCanciones.h"
+
+1573164688 e:\tp_final_lab\playlist.h
+	"ArbolCanciones.h"
+	"ADL_Users.h"
+
+1573164732 source:e:\tp_final_lab\playlist.c
+	"playlist.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1573559244 source:e:\tp_final_lab\adl_users.c
+	"ADL_Users.h"
+	<stdio.h>
+	<stdlib.h>
+
+1574253752 c:\users\alejo\desktop\tp_final_lab\playlist.h
+	"ArbolCanciones.h"
+	"ADL_Users.h"
+
+1574256592 source:c:\users\alejo\desktop\bocanegramolina\adl_users.c
+	"ADL_Users.h"
+	"gotoxy.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+
+1574201539 c:\users\alejo\desktop\bocanegramolina\adl_users.h
+	"listaCanciones.h"
+	"ArbolCanciones.h"
+
+1572569846 c:\users\alejo\desktop\bocanegramolina\listacanciones.h
+
+1574361933 c:\users\alejo\desktop\bocanegramolina\arbolcanciones.h
+	"listaCanciones.h"
+
+1491399896 c:\users\alejo\desktop\bocanegramolina\gotoxy.h
+
+1574364238 source:c:\users\alejo\desktop\bocanegramolina\arbolcanciones.c
+	"ArbolCanciones.h"
+	<stdio.h>
+	<stdlib.h>
+
+1574211684 source:c:\users\alejo\desktop\bocanegramolina\cargararchivorandom.c
+	"CargarArchivoRandom.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ADL_Users.h"
+	"listaCanciones.h"
+
+1572046626 c:\users\alejo\desktop\bocanegramolina\cargararchivorandom.h
+
+1491400450 source:c:\users\alejo\desktop\bocanegramolina\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1574200564 source:c:\users\alejo\desktop\bocanegramolina\listacanciones.c
+	"listaCanciones.h"
+	<stdio.h>
+	<stdlib.h>
+
+1574363455 source:c:\users\alejo\desktop\bocanegramolina\menus.c
+	"menus.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"gotoxy.h"
+
+1574205004 c:\users\alejo\desktop\bocanegramolina\menus.h
+	"ADL_Users.h"
+	"ArbolCanciones.h"
+	"playlist.h"
+
+1574253752 c:\users\alejo\desktop\bocanegramolina\playlist.h
+	"ArbolCanciones.h"
+	"ADL_Users.h"
+
+1574261971 source:c:\users\alejo\desktop\bocanegramolina\playlist.c
+	"playlist.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1574550140 source:c:\users\alejo\desktop\bocanegramolina\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"menus.h"
+	"gotoxy.h"
+	"ADL_Users.h"
+	"CargarArchivoRandom.h"
+	"ArbolCanciones.h"
 

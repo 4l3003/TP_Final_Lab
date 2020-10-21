@@ -1,51 +1,78 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "usuario.h"
+#include <string.h>
+#include "menus.h"
 #include "gotoxy.h"
+#include "ADL_Users.h"
+#include "CargarArchivoRandom.h"
+#include "ArbolCanciones.h"
+
 int main()
 {
-    menu_Ingreso();
-}
-
-
-void menu_Ingreso()
-{
-    gotoxy(50,1);printf("================");
-    gotoxy(50,2);printf("MENU DE INGRESO");
-    gotoxy(50,3);printf("================");
-
-    gotoxy(25,8);printf("INGRESAR COMO ADMINISTRADOR");
-    gotoxy(25,10);printf("INGRESAR COMO USUARIO");
-    gotoxy(25,12);printf("REGISTRAR UN USUARIO");
-    int x=20, y=8;
-    char c;
+    system("COLOR 70");
     hidecursor(0);
-    gotoxy(x,y);printf(">>>");
-    y=y+2;
+
+    srand(getpid());
+    int Users_validos = Val_users_Arch(), x=20, y=10, idUser=0;
+    stCelda *ArrUsuarios = (stCelda *)malloc(Users_validos*sizeof(stCelda));
+    pasar_Archivo_arreglo(&ArrUsuarios);
+    int validosArchCanciones = ContarRegistrosArchCanciones();
+    nodoArbolCancion *arbolCanciones = Pasar_Archivo_Arbol(arbolCanciones,validosArchCanciones);
+    pasarDeArchivoPlaylistToADL(&ArrUsuarios,Users_validos,arbolCanciones);
+    //inorder(arbolCanciones);
+
+    inorder(arbolCanciones);
+    char c;
+   // mostrarUsuarios(ArrUsuarios,Users_validos);
     do
     {
+
+        gotoxy(x,y);printf(">>>");
+        gotoxy(50,1);printf("================");
+        gotoxy(50,2);printf("MENU DE INGRESO");
+        gotoxy(50,3);printf("================");
+        gotoxy(25,10);printf("INGRESAR AL SISTEMA");
+        gotoxy(25,12);printf("REGISTRAR UN USUARIO");
         c = getch();
         switch(c)
        {
             case 72: ///arriba
-                gotoxy(x,y-2);printf("   ");
-                gotoxy(x,y);printf(">>>");
-                 y=y-2;
+                if(y==10)
+                {
+                   gotoxy(x,y-2);printf("   ");
+                }
+                else
+                {
+                     y=y-2;
+                     gotoxy(x,y+2);printf("   ");
+                     gotoxy(x,y);printf(">>>");
+
+                }
                 break;
             case 80: ///abajo
-                gotoxy(x,y-2);printf("   ");
-                gotoxy(x,y);printf(">>>");
-                y=y+2;
+                if(y==12)
+                {
+                     gotoxy(x,y+2);printf("   ");
+                }
+                else
+                {
+                  y=y+2;
+                  gotoxy(x,y-2);printf("   ");
+                  gotoxy(x,y);printf(">>>");
+
+                }
                 break;
             case 13:
-                if(y==8)
+                system("cls");
+                if(y==10)
                 {
-                    ///ingresar administrador
-                }else if(y==10)
-                {
+                    idUser = loginUser(ArrUsuarios,Users_validos,arbolCanciones);
+                    system("cls");
                     ///ingresar user
                 }else
                 {
+                    Users_validos = altaDeUser(ArrUsuarios,Users_validos);
+                    system("cls");
                     ///registrar user
                 }
                 break;
@@ -53,3 +80,10 @@ void menu_Ingreso()
     }while(c!=27);
 
 }
+
+
+
+
+
+
+
